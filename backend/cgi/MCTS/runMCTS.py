@@ -156,7 +156,7 @@ def MonteCarloTreeSearch(inputs, SimulateBoxes=False):
     rjson2 = json.dumps(rjson)
     print(rjson2)
 
-    
+    print("rendering data")
     renderContainerData(data)
     
     return rjson2

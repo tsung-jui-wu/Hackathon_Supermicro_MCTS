@@ -1,1 +1,1 @@
-gunicorn --bind 0.0.0.0:5001 --timeout 600 wsgi:app
+gunicorn --bind 0.0.0.0:5001 --timeout 1200 wsgi:app
